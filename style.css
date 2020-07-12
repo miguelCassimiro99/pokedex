@@ -14,3 +14,11 @@ button {
     background-color: black;
     color: white;
 }
+
+h1 {
+    margin: 5px;
+}
+
+a {
+    color: white;
+}
