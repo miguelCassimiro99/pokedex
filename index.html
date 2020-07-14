@@ -2,27 +2,39 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokedex - Test</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
 </head>
 
 <body>
     <h1>Choose a Pokémon</h1>
 
     <form id="form">
-        <input type="text" id="pokemon_name" placeholder="type here">
+        <input type="text" id="pokemon_name" placeholder="type here" />
         <button>Search</button>
         <button onclick="window.location.reload();">
-            Refresh
-        </button>
+        Refresh
+      </button>
     </form>
 
-    <ul></ul>
+    <!-- name -->
+    <div id="name_list"></div>
+
+    <!-- type -->
+    <div id="type_label"></div>
+    <ul id="type_list"></ul>
+
+    <!-- abilities -->
+    <div id="abilities_label"></div>
+    <ul id="ability_list"></ul>
+
+    <!-- moves -->
+    <div id="moves_label"></div>
+    <ul id="moves_list"></ul>
 
     <script src="main.js"></script>
 </body>

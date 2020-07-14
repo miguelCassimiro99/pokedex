@@ -1,6 +1,7 @@
 body {
     background: #7159c1;
     color: white;
+    font-family: sans-serif;
 }
 
 input {
@@ -21,4 +22,12 @@ h1 {
 
 a {
     color: white;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight: bolder;
 }
