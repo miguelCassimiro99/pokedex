@@ -1,5 +1,6 @@
 # Pokedex
 This little project uses the PokéAPI to show some informations about a Pokemon informed
+<h5>See the result in this <a href="https://miguelcassimiro99.github.io/pokedex/">link</a></h5>
 
 This repository was made to lear more and practice about the Axios using where it handle requests on PokéAPI
 On the index.html you'll find a simple form that you put a Pokémon's name and submit the search with the button 'Search' and then, axios makes possible to show some informations like:
